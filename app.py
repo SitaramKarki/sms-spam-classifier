@@ -6,6 +6,7 @@ try:
 except LookupError:
     nltk.download('punkt')
 
+nltk.download('stopwords') 
 
 import streamlit as st
 import string
