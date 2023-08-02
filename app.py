@@ -21,7 +21,7 @@ ps = PorterStemmer()
 tfidf = pickle.load(open('vectorizer.pkl','rb'))
 model = pickle.load(open('model.pkl','rb'))
 
-st.title('SMS Spam Classifier \n -an initiative by Situ Entreprises Ltd.')
+st.title('SMS Spam Classifier \n -an initiative by Situ Technogies Ltd.')
 
 input_sms = st.text_area("Enter the message")
 
